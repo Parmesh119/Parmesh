@@ -1,25 +1,26 @@
-import Link from 'next/link';
+import Links from 'next/link';
 import { FC } from 'react';
 import Button from '../ui/Button';
 import { Instagram } from 'lucide-react';
+import { Link } from 'lucide-react'
 
 interface ProfileNameProps {}
 
 const ProfileName: FC<ProfileNameProps> = ({}) => {
     return (
         <div className="text-3xl flex flex-col font-bold text-highlight">
-            Neeraj Walia
+           Parmesh Bhatt
             <div className="text-sm font-thin flex justify-between items-center">
-                @ezSnippet
-                <Link
+                <span className="font-bold">@Parmesh119</span>
+                <Links
                     className="block md:hidden"
-                    href="https://instagram.com/ezSnippet"
+                    href="https://linktr.ee/parmesh119t"
                     target='_blank'
                 >
                     <Button variant="primary" sizes={'iconOnly'}>
-                        <Instagram />
+                        <Link />
                     </Button>
-                </Link>
+                </Links>
             </div>
         </div>
     );

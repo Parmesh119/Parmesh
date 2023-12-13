@@ -15,11 +15,12 @@ const Navbar: FC<NavbarProps> = ({}) => {
             {/* <SearchBar /> */}
             <div>{/* Place holder for search bar */}</div>
             <div className="flex items-center gap-5">
-                <Button disabled onClick={setFormVisibility}>
-                    Contact Me <User size={18} />
+                <Button onClick={setFormVisibility}>
+                    <span className="text-black font-bold py-1">Contact Me</span> <User size={18} className='text-black font-bold'/>
                 </Button>
 
                 <button
+                    title="Toggle Menu"
                     onClick={() => showMenuVisibility(!showMenu)}
                     type="button"
                 >

@@ -8,7 +8,7 @@ const Menu: FC<MenuProps> = ({}) => {
     return (
         <div className="flex gap-4">
             <List
-                link="/home"
+                link="/"
                 variant="secondary"
                 sizes="small"
                 effect="changeColor"
@@ -16,28 +16,28 @@ const Menu: FC<MenuProps> = ({}) => {
                 Home
             </List>
             <List
-                link="/home"
+                link="/aboutme"
                 variant="secondary"
                 sizes="small"
                 effect="changeColor"
             >
-                Videos
+                About me
             </List>
             <List
-                link="/home"
+                link="/education"
                 variant="secondary"
                 sizes="small"
                 effect="changeColor"
             >
-                Projects
+                Education
             </List>
             <List
-                link="/home"
+                link="/achievements"
                 variant="secondary"
                 sizes="small"
                 effect="changeColor"
             >
-                Channels
+                Achievements
             </List>
             <List
                 link="/home"

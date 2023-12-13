@@ -7,6 +7,7 @@ import {
   Shirt,
   ShoppingCart,
   Ticket,
+  Github
 } from 'lucide-react';
 
 export interface ISectionCardData {
@@ -31,65 +32,79 @@ export interface IProjectSectionCardData {
 export const projectCard: IProjectSectionCardData[] = [
   {
     id: 1,
-    title: 'Discord Clone',
-    techStack: 'Next.js 13, React Hook Form, Zustand, Shadcn, Typescript',
-    imageUrl: 'discord-clone.jpeg',
-    href: 'https://github.com/nwaliaez/discord-clone',
+    title: 'FTE - Conference Software',
+    techStack: 'HTML5, CSS3, Bootstrap, NodeJs, Express',
+    imageUrl: 'ICTA-2024.png',
+    href: 'https://github.com/Parmesh119/ICTA-Second',
   },
   {
     id: 2,
-    title: 'Spotify Clone',
+    title: 'Medical Chatbot',
     techStack:
-      'Next.js 13, React Hook Form, Zustand, Radix UI, Typescript, Tailwind CSS',
-    imageUrl: 'spotify-clone.gif',
-    href: 'https://github.com/nwaliaez/spotify-clone',
+      'Google Cloud Platform, DialogFlow, Telegram',
+    imageUrl: 'Medical Chatbot.png',
+    href: 'https://github.com/Parmesh119/Medical-Chatbot-using-Dialogue-of-Google-cloud',
   },
   {
     id: 3,
-    title: 'Amazon Clone',
+    title: 'The City Track',
     techStack:
-      'NodeJs, Express, Mongoose, Next.js 13, Next Auth, React Hook Form, Typescript, Tailwind CSS',
-    imageUrl: 'amazon-clone.jpeg',
-    href: 'https://github.com/nwaliaez/eCommerce',
+      'PHP, HTML5, CSS3, Bootstrap',
+    imageUrl: 'CityTrack.png',
+    href: 'https://github.com/Parmesh119/CityTrack',
   },
   {
     id: 4,
-    title: ' DALL·E Clone',
-    techStack: 'OpenAI, Nodejs, Express, Mongoose, ReactJS, Tailwind CSS',
-    imageUrl: 'dalle-clone.webp',
-    href: 'https://github.com/nwaliaez/dalleClone',
+    title: ' Bug Tracking System',
+    techStack: 'HTML5, CSS3, Middleware, NodeJs, ExpressJs, ejs in ExpressJs, Bootstrap, MongoDB',
+    imageUrl: 'BugTracking.png',
+    href: 'https://github.com/Parmesh119/Bug-Tracker',
+  },
+  {
+    id: 5,
+    title: 'DeCodeCafe Community Website',
+    techStack: 'HTML5, CSS3, Middleware, NodeJs, ExpressJs, Bootstrap',
+    imageUrl: 'Decodecafe1.png',
+    href: 'https://github.com/DeCodeCafe/Official-website---DeCodeCafe-Community',
+  },
+  {
+    id: 6,
+    title: 'KDPIT website',
+    techStack: 'React, react-router-dom, NodeJs, Express, Bootstrap, Tailwind CSS, MongoDB',
+    imageUrl: 'KDPIT.png',
+    href: 'https://github.com/Nirmalchaudhary/KDPIT',
   },
 ];
 
 export const moreProjects = [
   {
     id: 1,
-    title: 'Ez Clothing',
-    techStack: 'Next.js 13, Drizzle, PostgreSql, Docker, ShadCn',
-    icon: 'shirt',
-    href: 'https://github.com/nwaliaez/ezClothing',
+    title: 'GitHub Explorer',
+    techStack: 'React, GitHub, Open Source',
+    icon: 'Github',
+    href: 'https://github.com/Parmesh119/CodeClause_GitHub_Explorer',
   },
   {
     id: 2,
-    title: 'Ethereum Lottery',
-    techStack: 'Solidity, Ethers, Hardhat, Chai',
-    icon: 'lottery',
-    href: 'https://github.com/nwaliaez/HardhatLottery',
+    title: 'The Gita Initiative',
+    techStack: 'Open Source',
+    icon: '',
+    href: 'https://github.com/gita',
   },
   {
     id: 3,
-    title: 'File Sharing App',
-    techStack: 'Node js, Express, Web Sockets, WebRTC, ReactJs',
-    icon: 'share',
-    href: 'https://github.com/nwaliaez/filetransfer-webrtc',
+    title: 'iChat.app',
+    techStack: 'Node js, Express, Socket.io, React, Tailwind CSS',
+    icon: '',
+    href: 'https://github.com/Parmesh119/Chat_App',
   },
 
   {
     id: 4,
-    title: 'Snake Game',
-    techStack: 'Next.js 13, Tailwind CSS, Typescript',
-    icon: 'game',
-    href: 'https://snake-nwaliaez.vercel.app/',
+    title: 'TextUtils',
+    techStack: 'ReactJs, Bootstrap',
+    icon: '',
+    href: 'https://github.com/Parmesh119/TextUtils',
   },
 ];
 
@@ -104,8 +119,8 @@ export const frontendCard: ISectionCardData[] = [
   },
   {
     id: 2,
-    title: 'Tailwind',
-    src: '/tech/frontend/tailwind.jpg',
+    title: 'Tailwind, Bootstrap',
+    src: '/tech/frontend/tailwindBootstrap.jpg',
     exp: '1 day ago',
     snippetCount: 1128,
     progress: 90,

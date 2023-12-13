@@ -21,7 +21,7 @@ const ProjectsCard: FC<ProjectsCardProps> = ({
       <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
         <Image
           src={`/projects/${src}`}
-          alt="spotify"
+          alt='Project'
           width={700}
           height={700}
           className="aspect-video object-cover"
