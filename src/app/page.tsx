@@ -23,8 +23,8 @@ export default function Home() {
         <ProjectCardSection title="Projects" data={projectCard} />
         <MoreProjects title="More projects" data={moreProjects} />
 
-        <CardSection title="Web3" data={web3Cards} />
-        <CardSection title="Others" data={otherCards} />
+        <CardSection title="Experience" data={web3Cards} />
+        {/* <CardSection title="WebDev" data={otherCards} /> */}
       </div>
     </div>
   );
