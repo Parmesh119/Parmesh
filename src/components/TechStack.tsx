@@ -20,19 +20,19 @@ const TechStack: FC<TechStackProps> = ({}) => {
             'Bootstrap',
             'Javascript',
             'Typescript',
-            'React Js',
-            'Next Js 13',
+            'ReactJs',
+            'NextJs',
           ]}
         />
         <TechCard
           title="Backend"
           classaName="bg-[#f37c36]"
-          tech={['Node Js', 'Express Js', 'NPM', 'API Testing using Postman', 'GIT', 'GitHub']}
+          tech={['Node Js', 'Express Js', 'NPM', 'API Testing using Postman', 'GIT', 'GitHub', 'Jest', 'Manual testing']}
         />
         <TechCard
           title="Database"
           classaName="bg-[#e0558a]"
-          tech={['MongoDB']}
+          tech={['MongoDB', 'firebase']}
         />
         <TechCard
           title="Other Things"

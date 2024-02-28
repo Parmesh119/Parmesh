@@ -69,9 +69,16 @@ export const projectCard: IProjectSectionCardData[] = [
   },
   {
     id: 6,
-    title: 'KDPIT website',
-    techStack: 'React, react-router-dom, NodeJs, Express, Bootstrap, Tailwind CSS, MongoDB',
-    imageUrl: 'KDPIT.png',
+    title: 'CharusatV5',
+    techStack: 'NextJs, ExpressJs, Bootstrap, Tailwind CSS, MongoDB, NPM, Git, GitHub, JavaScript, Jest, Manual testing',
+    imageUrl: 'Charusat.png',
+    href: 'https://github.com/Nirmalchaudhary/KDPIT',
+  },
+  {
+    id: 7,
+    title: 'CharusatV4',
+    techStack: 'React, Express, Bootstrap, Tailwind CSS, MongoDB, Git, GitHub, Jest, Manual testing',
+    imageUrl: 'Charusat.png',
     href: 'https://github.com/Nirmalchaudhary/KDPIT',
   },
 ];
@@ -283,7 +290,7 @@ export const devopsCards: ISectionCardData[] = [
 export const web3Cards: ISectionCardData[] = [
   {
     id: 1,
-    title: 'Student at Charusat University',
+    title: 'Student, Charusat University',
     src: '/tech/experience/Charusat.png',
     exp: '2 years ago',
     snippetCount: 1128,
@@ -291,7 +298,7 @@ export const web3Cards: ISectionCardData[] = [
   },
   {
     id: 2,
-    title: 'Developer Program Member',
+    title: 'Developer Program Member, GitHub',
     src: `/tech/experience/Github.png`,
     exp: '1 year ago',
     snippetCount: 1128,
@@ -299,22 +306,38 @@ export const web3Cards: ISectionCardData[] = [
   },
   {
     id: 3,
-    title: 'Cloud Engineer at CLDC - Charusat',
+    title: 'Cloud Team, AWS Cloud Club - Charusat',
+    src: `/tech/experience/ASC.jpeg`,
+    exp: '1 month ago',
+    snippetCount: 1128,
+    progress: 80,
+  },
+  {
+    id: 4,
+    title: 'Cloud Developer, CLDC - Charusat',
     src: '/tech/experience/CLDC.png',
     exp: '8 months ago',
     snippetCount: 1128,
     progress: 90,
   },
   {
-    id: 4,
-    title: 'Intern at Krtya Software Pvt Lmd.',
+    id: 10,
+    title: 'Lead WebDev Team, DeCodeCafe Community',
+    src: '/tech/experience/Decodecafe1.png',
+    exp: '2 months ago',
+    snippetCount: 1128,
+    progress: 70,
+  },
+  {
+    id: 5,
+    title: 'WebDev Intern, Krtya Software Pvt Lmd.',
     src: '/tech/experience/krtya.png',
     exp: '6 months ago',
     snippetCount: 1128,
     progress: 80,
   },
   {
-    id: 5,
+    id: 6,
     title: 'GSSoC`23 student developer',
     src: '/tech/experience/GSSoC.png',
     exp: '4 months ago',
@@ -322,7 +345,7 @@ export const web3Cards: ISectionCardData[] = [
     progress: 70,
   },
   {
-    id: 6,
+    id: 7,
     title: 'WoC`23 Student Developer',
     src: '/tech/experience/WoC.png',
     exp: '11 months ago',
@@ -330,37 +353,21 @@ export const web3Cards: ISectionCardData[] = [
     progress: 70,
   },
   {
-    id: 7,
-    title: 'Tech Team DeCodeCafe',
+    id: 8,
+    title: 'Tech Team, DeCodeCafe Community',
     src: '/tech/experience/decodecafe.png',
     exp: '7 months ago',
     snippetCount: 1128,
     progress: 70,
   }, 
   {
-    id: 8,
+    id: 9,
     title: 'Student Ambassador MLSA',
     src: '/tech/experience/MLSA.png',
     exp: '3 months ago',
     snippetCount: 1128,
     progress: 70,
   },
-  {
-    id: 9,
-    title: 'Lead At WebDev Team DeCodeCafe',
-    src: '/tech/experience/Decodecafe1.png',
-    exp: '2 months ago',
-    snippetCount: 1128,
-    progress: 70,
-  },
-  {
-    id: 10,
-    title: 'Postman Student Expert',
-    src: '/tech/experience/Postman.png',
-    exp: '1 months ago',
-    snippetCount: 1128,
-    progress: 70,
-  }
 ];
 
 export const otherCards: ISectionCardData[] = [
